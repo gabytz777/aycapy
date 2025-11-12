@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Redirecting…</title>
+
+  <!-- Immediate JS redirect to the Rick Astley video -->
+  <script>
+    // Use replace() so the redirect doesn't leave this page in history
+    window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  </script>
+
+  <!-- Fallback: clickable link for browsers that block JS -->
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+  </noscript>
+</head>
+<body>
+  <p>If you aren't redirected automatically, <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">click here</a>.</p>
+</body>
+</html>
